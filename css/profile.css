@@ -1,0 +1,779 @@
+*{
+    margin: 0px;
+    font-family: 'Kreon', serif;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: purple;
+    height: 100px;
+}
+
+header div ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    list-style: none;
+    margin-left: 550px;
+}
+
+header div ul li{
+    padding-top: 40px;
+    padding-left: 30px;
+}
+
+header div ul li a{
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: normal;
+    padding-left: 60px;
+    position: relative;
+    top: 20px;
+    color: white;
+}
+
+.logo{
+    margin-top: 25px;
+    margin-left: 50px;
+    border-radius: 50px;
+    position: relative;
+    bottom: 10px;
+    height: 70px;
+    width: 70px;
+}
+
+.login{
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+}
+
+#count {
+    background-color: white;
+    color: purple;
+    font-size: 20px;
+    border-radius: 50%;
+    height: 20px;
+    width: 22px;
+    margin-top: -44px;
+    margin-left: 17px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.arrow {
+    margin: 2rem;
+    font-size: 30px;
+}
+
+.arrow a {
+    color: black;
+}
+
+
+
+.details {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+section{
+    align-content: center;
+    margin-top: 150px;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-bottom: 200px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 30px 30px;
+    width: 700px;
+    height: 400px;
+    box-shadow: 2px 4px 8px 2px rgba(6, 6, 6, 0.2), 3px 6px 20px 3px rgba(0, 0, 0, 0.19);
+}
+
+section h2 {
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 0px;
+}
+
+.form {
+    margin-left: 100px;
+}
+
+.avatar img {
+    margin-top: 50px;
+}
+
+.name{
+    font-weight: 200px;
+    font-size: 20px;
+}
+
+.age{
+    font-weight: 200px;
+    font-size: 20px;
+    position: relative;
+    top: 12px;
+}
+
+.add{
+    font-weight: 200px;
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+}
+
+.des{
+    font-weight: 200px;
+    font-size: 20px;
+    position: relative;
+    top: 40px;
+}
+
+.no{
+    font-weight: 200px;
+    font-size: 20px;
+    position: relative;
+    top: 15px;
+}
+
+.mail{
+    font-weight: 200px;
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+}
+
+input[type="email"]{
+    border: none;
+    height: 30px;
+    width: 225px;
+    font-size: 20px;
+    position: relative;
+    left: 100px;
+    outline: none;
+    background-color: white;
+}
+
+input[type="text"]{
+    height: 30px;
+    width: 200px;
+    border: none;
+    font-size: 20px;
+    position: relative;
+    left: 130px;
+    background-color: white;
+}
+
+input[type="number"]{
+    height: 30px;
+    width: 200px;
+    border: none;
+    font-size: 20px;
+    position: relative;
+    left: 47px;
+    outline: none;
+    background-color: white;
+}
+
+input[id="age"]{
+    height: 30px;
+    width: 200px;
+    font-size: 20px;
+    border: none;
+    position: relative;
+    left: 147px;
+    outline: none;
+}
+
+
+input[id="address"]{
+    height: 70px;
+    width: 218px;
+    border: none;
+    border-radius: 3px;
+    position: relative;
+    left: 20px;
+    outline: none;
+    font-size: 17px;
+
+}
+
+input[id="des"]{
+    height: 30px;
+    width: 218px;
+    border: none;
+    border-radius: 3px;
+    position: relative;
+    left: 40px;
+    outline: none;
+    font-size: 17px;
+}
+
+
+textarea{
+    height: 35px;
+    width: 200px;
+    background-color: white;
+    font-size: 20px;
+    position: relative;
+    left: 20px;
+    border: none;
+    top: 12px;
+    outline: none;
+    resize: none;
+}
+
+.c1{
+    margin-left: 165px;   
+}
+
+
+.btn-1{
+    font-size: 18px;
+    position: relative;
+    left: 350px;
+    top: 70px;
+    align-content: space-between;
+    border-radius: 5px;
+    border: 1px solid purple;
+    color: white;
+    background-color: purple;
+    height: 35px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.btn-1 a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn-2{
+    font-size: 18px;
+    position: relative;
+    left: 400px;
+    top: 70px;
+    align-content: space-between;
+    border-radius: 5px;
+    border: 1px solid gray;
+    background-color: gray;
+    height: 35px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.btn-3{
+    font-size: 18px;
+    position: relative;
+    left: 250px;
+    top: 70px;
+    align-content: space-between;
+    border-radius: 5px;
+    border: 1px solid gray;
+    background-color: gray;
+    height: 35px;
+    width: 100px;
+    cursor: pointer;
+}
+
+/* 
+section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    margin-top: 100px;
+    margin-left: 350px;
+    margin-bottom: 200px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    height: 900px;
+    width: 800px;
+    box-shadow: 2px 4px 8px 2px rgba(6, 6, 6, 0.2), 3px 6px 20px 3px rgba(0, 0, 0, 0.19);
+}
+
+section h1{
+    color: black;
+    font-weight: bold;
+    font-size: 55px;
+    margin-left: 50px;
+}
+
+section img{
+    position: relative;
+    left: 110px;
+    top: 30px;
+}
+
+.btn-2 a{
+    text-decoration: none;
+    color: white;
+}
+
+.name{
+    font-weight: 200px;
+    font-size: 20px;
+    position: relative;
+    top: 60px;
+}
+
+.age{
+    font-weight: 200px;
+    font-size: 20px;
+    position: relative;
+    top: 95px;
+}
+
+.add{
+    font-weight: 200px;
+    font-size: 20px;
+    position: relative;
+    top: 120px;
+}
+
+.des{
+    font-weight: 200px;
+    font-size: 20px;
+    position: relative;
+    top: 200px;
+}
+
+.no{
+    font-weight: 200px;
+    font-size: 20px;
+    position: relative;
+    top: 155px;
+}
+
+.mail{
+    font-weight: 200px;
+    font-size: 20px;
+    position: relative;
+    top: 175px;
+}
+
+.pin {
+    font-size: 20px;
+    font-weight: 200px;
+    position: relative;
+    top: 140px;
+}
+
+.state {
+    font-size: 20px;
+    font-weight: 200px;
+    position: relative;
+    top: 140px;
+}
+
+input[type="email"]{
+    border: none;
+    height: 30px;
+    width: 225px;
+    font-size: 20px;
+    position: relative;
+    left: 98px;
+    outline: none;
+    background-color: white;
+}
+
+input[type="text"]{
+    height: 30px;
+    width: 200px;
+    border: none;
+    font-size: 20px;
+    position: relative;
+    left: 125px;
+    background-color: white;
+}
+
+input[type="number"]{
+    height: 30px;
+    width: 200px;
+    border: none;
+    font-size: 20px;
+    position: relative;
+    left: 47px;
+    outline: none;
+    background-color: white;
+}
+
+input[id="age"]{
+    height: 30px;
+    width: 200px;
+    font-size: 20px;
+    border: none;
+    position: relative;
+    left: 140px;
+    outline: none;
+}
+
+
+input[id="pincode"]{
+    height: 30px;
+    width: 218px;
+    border: none;
+    border-radius: 3px;
+    position: relative;
+    left: 185px;
+    outline: none;
+    font-size: 17px;
+
+}
+
+input[id="state"]{
+    height: 30px;
+    width: 218px;
+    border: none;
+    border-radius: 3px;
+    position: relative;
+    left: 185px;
+    outline: none;
+    font-size: 17px;
+}
+
+
+textarea{
+    height: 35px;
+    width: 200px;
+    background-color: white;
+    font-size: 20px;
+    position: relative;
+    left: 20px;
+    border: none;
+    top: 12px;
+    outline: none;
+    resize: none;
+}
+
+.c1{
+    margin-left: 165px;   
+}
+
+#gender{
+    border: none;
+    position: relative;
+    left: 110px;
+}
+
+select{
+    height: 37px;
+    width: 205px;
+    font-size: 20px;
+}
+
+.btn-1{
+    font-size: 18px;
+    position: relative;
+    left: 150px;
+    top: 250px;
+    align-content: space-between;
+    border-radius: 5px;
+    border: 1px solid purple;
+    color: white;
+    background-color: purple;
+    height: 35px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.btn-1 a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn-2{
+    font-size: 18px;
+    position: relative;
+    left: 200px;
+    top: 240px;
+    align-content: space-between;
+    border-radius: 5px;
+    border: 1px solid gray;
+    background-color: gray;
+    height: 35px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.btn-3{
+    font-size: 18px;
+    position: relative;
+    left: 250px;
+    top: 250px;
+    align-content: space-between;
+    border-radius: 5px;
+    border: 1px solid gray;
+    background-color: gray;
+    height: 35px;
+    width: 100px;
+    cursor: pointer;
+}
+
+#des{
+    border: none;
+    position: relative;
+    left: 35px;
+} */
+
+.menu{
+    display: none;
+}
+
+/*
+
+@media only screen and (max-width: 800px)
+
+{
+
+    header{
+        height: 10vh;
+        width: 100vw;
+     }
+
+     .logo{
+        height: 40px;
+        width: 40px;
+        margin-left: 10px;
+     }
+
+     h1{
+        font-size: 30px;
+        margin-top: -2px;
+        margin-left: -50px;
+     }
+
+     .nav{
+        display: none;
+    }
+
+    .menu{
+        display: block;
+        font-size: 26px;
+        color: white;
+        margin-top: 20px;
+        margin-left: 90px;
+        position: relative;
+    }
+
+    .menu-list a{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        color: white;
+        padding: 5px;
+        text-decoration: none;
+    }
+
+    .menu:hover .menu-list{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        align-items: center;
+        margin-top: -38px;
+        margin-left: -250px;
+    }
+
+    .menu-list{
+        display: none;
+        color: white;
+        position: absolute;
+    }
+
+    section{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+        margin-top: 90px;
+        margin-left: 13px;
+        border: 1px solid gray;
+        border-radius: 10px;
+        height: 650px;
+        width: 370px;
+        box-shadow: 2px 4px 8px 2px rgba(6, 6, 6, 0.2), 3px 6px 20px 3px rgba(0, 0, 0, 0.19);
+        font-weight: bold;
+    }
+
+    section h1{
+        color: black;
+        font-weight: bold;
+        font-size: 30px;
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+    
+    section img{
+        height: 90px;
+        width: 90px;
+        position: relative;
+        left: 110px;
+        top: 30px;
+    }    
+    
+    .btn-2 a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .name{
+        font-weight: 200;
+        font-size: 18px;
+        position: relative;
+        top: 65px;
+    }
+    
+    .age{
+        font-weight: 200;
+        font-size: 18px;
+        position: relative;
+        top: 148px;
+    }
+    
+    .gender{
+        font-weight: 200;
+        font-size: 18px;
+        position: relative;
+        top: 70px;
+    }
+    
+    .add{
+        font-weight: 200;
+        font-size: 18px;
+        position: relative;
+        top: 135px;
+    }
+    
+    .des{
+        font-weight: 200;
+        font-size: 18px;
+        position: relative;
+        top: 210px;
+    }
+    
+    .no{
+        font-weight: 200;
+        font-size: 18px;
+        position: relative;
+        top: 170px;
+    }
+    
+    .mail{
+        font-weight: 200;
+        font-size: 18px;
+        position: relative;
+        top: 195px;
+    }
+    
+    input[type="email"]{
+        height: 20px;
+        width: 155px;
+        font-size: 15px;
+        position: relative;
+        left: 70px;
+        outline: none;
+    }
+    
+    input[type="text"]{
+        height: 20px;
+        width: 130px;
+        font-size: 15px;
+        padding-left: 25px;
+        position: relative;
+        left: 95px;
+        outline: none;
+    }
+    
+    input[type="number"]{
+        height: 20px;
+        width: 128px;
+        padding-left: 25px;
+        font-size: 15px;
+        position: relative;
+        left: 27px;
+        outline: none;
+    }
+    
+    input[id="age"]{
+        height: 20px;
+        width: 130px;
+        padding-left: 25px;
+        font-size: 15px;
+        position: relative;
+        left: 112px;
+        outline: none;
+    }
+    
+    textarea{
+        height: 20px;
+        width: 130px;
+        padding-left: 25px;
+        font-size: 15px;
+        position: relative;
+        left: 3px;
+        top: 15px;
+        outline: none;
+    }
+
+    select{
+        height: 28px;
+        width: 160px;
+    }
+
+    #gender{
+        display: inline-block;
+        position: relative;
+        left: 85px;
+    }
+    
+    .btn-1{
+        font-size: 18px;
+        position: relative;
+        left: 100px;
+        top: 250px;
+        align-content: space-between;
+        border-radius: 3px;
+        border: 1px solid purple;
+        color: white;
+        background-color: purple;
+        height: 25px;
+        width: 80px;
+    }
+    
+    .btn-1 a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .btn-2{
+        font-size: 18px;
+        position: relative;
+        left: 120px;
+        top: 250px;
+        align-content: space-between;
+        border-radius: 3px;
+        border: 1px solid gray;
+        background-color: gray;
+        height: 25px;
+        width: 80px;
+    }
+    
+    #des{
+        display: inline-block;
+        position: relative;
+        left: 15px;
+    }
+
+    
+} */
